@@ -35,6 +35,7 @@ The repository includes implementations for:
 ```text
 .
 ├── model.py              # SFNO model architecture
+├── requirements.txt      # Python Package Dependencies
 ├── train.py              # Model training
 ├── predict.py            # Autoregressive prediction
 ├── test.py               # Model evaluation
@@ -48,10 +49,11 @@ The repository includes implementations for:
     ├── metrics.py
     ├── hux_utils.py
     └── hux_code/
+
 ```
 
 
-Training
+## Training
 
 `train.py` expects the following command-line arguments:
 
@@ -72,12 +74,12 @@ feed_grid_embeddings
 radial_pushforward
 ```
 
-### Prediction and Evaluation
+## Prediction and Evaluation
 
 Use `predict.py` for autoregressive radial propagation and test.py for evaluation using RMSE, RMGSE, and ACC.
 
 The `hux/` directory contains the HUX-f baseline and its associated evaluation tools.
 
-### Requirements
+## Requirements
 
-The experiments were developed using Python 3.10, PyTorch 2.2.1, and CUDA 12.1.
+You can install dependencies using `pip install -r requirements.txt`.
