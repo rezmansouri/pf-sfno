@@ -1,11 +1,5 @@
 # Bridging the Training-Inference Gap in Steady-State Solar Wind Neural Surrogates
 
-<img src="assets/mas.png"/>
-
-<p align="center">
-<i>Solar wind radial velocity propagation from 30 solar radii to 1 AU for Carrington rotation 2149</i>
-</p>
-
 Code for training and evaluating an autoregressive Spherical Fourier Neural Operator (SFNO) surrogate for steady-state solar wind propagation from $30\,R_{\odot}$ to 1 AU.
 
 <table>
@@ -19,10 +13,7 @@ Code for training and evaluating an autoregressive Spherical Fourier Neural Oper
   </tr>
 </table>
 
-<p align="center">
-<i>Solar wind radial velocity estimates and errors from Carrington Rotation 2149</i>
-</p>
-
+*Solar wind radial velocity estimates and errors from Carrington Rotation 2149*
 
 The repository includes implementations for:
 - SFNO model training with teacher forcing and push-forward training
